@@ -6,8 +6,19 @@ public class modDePlata {
         this.tip = tip;
     }
 
+    public modDePlata() {
+
+    }
+
     public int getTip()
     {
         return tip;
+    }
+
+    @Override
+    public String toString() {
+        return "modDePlata{" +
+                "tip=" + tip +
+                '}';
     }
 }

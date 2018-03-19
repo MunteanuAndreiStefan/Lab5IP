@@ -1,6 +1,16 @@
 public class Outh {
     private String cheie;
 
+    public Outh(String abcd) {
+    }
+
+    @Override
+    public String toString() {
+        return "Outh{" +
+                "cheie='" + cheie + '\'' +
+                '}';
+    }
+
     public boolean Logare(){
         boolean digit = false;
         int letters = 0;

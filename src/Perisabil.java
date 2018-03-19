@@ -8,6 +8,13 @@ public class Perisabil {
         this.dataExpirare = dataExpirare;
     }
 
+    @Override
+    public String toString() {
+        return "Perisabil{" +
+                "dataExpirare=" + dataExpirare +
+                '}';
+    }
+
     public Date getDataExpirare()
     {
         return dataExpirare;

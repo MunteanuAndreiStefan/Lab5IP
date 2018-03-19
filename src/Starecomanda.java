@@ -1,6 +1,6 @@
 public class Starecomanda {
     private int id;
-    private String tip;
+    public String tip;
 
     public Starecomanda(int id, String tip)
     {

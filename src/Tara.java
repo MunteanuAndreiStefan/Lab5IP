@@ -7,6 +7,14 @@ public class Tara {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Tara{" +
+                "nume='" + nume + '\'' +
+                ", id=" + id +
+                '}';
+    }
+
     private int id;
 
     public String getNume()
