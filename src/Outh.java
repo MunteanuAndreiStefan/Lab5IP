@@ -1,5 +1,5 @@
 public class Outh {
-    String cheie;
+    private String cheie;
 
     public boolean Logare(){
         boolean digit = false;

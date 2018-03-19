@@ -2,15 +2,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Utilizator {
-    String nume;
-    String parola;
-    boolean logat;
-    Outh autentificare;
-    String email;
-    List<Produs> listaProduse = new ArrayList<Produs>();
+    private String nume;
+    private String parola;
+    private boolean logat;
+    private Outh autentificare;
+    private String email;
+    private List<Produs> listaProduse = new ArrayList<Produs>();
 
     public boolean Logare(String nume, String parola){
-        if(nume == this.nume && parola == (this).parola){
+        if(nume.equals(this.nume) && parola.equals((this).parola)){
             logat = true;
         }
         return(logat);
@@ -22,8 +22,19 @@ public class Utilizator {
         }
         return logat;
     }
-    public boolean adaugaProdus(){
-           
+    public boolean adaugaProdus(Produs produs){
+           listaProduse.add(produs);
+           return true;
+    }
+
+    public Outh getAutentificare()
+    {
+        return autentificare;
+    }
+
+    public void setAutentificare(Outh autentificare)
+    {
+        this.autentificare = autentificare;
     }
 }
 

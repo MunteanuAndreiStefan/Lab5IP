@@ -1,4 +1,20 @@
 public class Starecomanda {
-    int id;
-    String tip;
+    private int id;
+    private String tip;
+
+    public Starecomanda(int id, String tip)
+    {
+        this.id = id;
+        this.tip = tip;
+    }
+
+    public void setId(int id)
+    {
+        this.id = id;
+    }
+
+    public String getTip()
+    {
+        return tip;
+    }
 }
