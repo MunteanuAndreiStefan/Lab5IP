@@ -22,4 +22,8 @@ public class Utilizator {
         }
         return logat;
     }
+    public boolean adaugaProdus(){
+           
+    }
 }
+
